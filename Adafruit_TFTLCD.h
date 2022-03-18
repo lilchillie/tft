@@ -14,10 +14,7 @@
 
 #include <Adafruit_GFX.h>
 
-// **** IF USING THE LCD BREAKOUT BOARD, COMMENT OUT THIS NEXT LINE. ****
-// **** IF USING THE LCD SHIELD, LEAVE THE LINE ENABLED:             ****
-
-//#define USE_ADAFRUIT_SHIELD_PINOUT 1
+#define USE_ADAFRUIT_SHIELD_PINOUT 1
 
 class Adafruit_TFTLCD : public Adafruit_GFX {
 
